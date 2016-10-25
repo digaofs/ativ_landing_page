@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+}
+
+.fullscreen {
+	max-width: 100%;
+	width: 100vw;
+	height: 100vh;
+	background-color: #335da0;
+}
+
+.centered {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.limited-width {
+	max-width: 1000px;
+}
+
+.price-box {
+	text-align: center;
+	display: inline-block;
+	border: solid 3px;
+	min-width: 100px;
+	min-height: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+.price-text{
+	display: block;
+	margin-top: 0;
+	margin-bottom: 65%;
+}
